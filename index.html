@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+
+<head>
+	<title>Open Mint</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="styles/reset.css" />
+	<link rel="stylesheet" href="styles/styles.css" />
+	<link rel="stylesheet" href="styles/flexslider.css" />
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+	<script src="js/flexslider-min.js"></script>
+	<script>
+		$(window).load(function() {
+			$('.flexslider').flexslider({controlNav: false});
+		});
+	</script>
+	<!--[if lt IE 9]>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js"></script>
+		<script src="js/PIE.js"></script>
+		<link rel="stylesheet" href="styles/ie8.css" />
+	<![endif]-->
+</head>
+
+<body>
+	<header>
+		<div class="wrapper">
+			<form id="search">
+				Search this website&nbsp;
+				<input type="text" name="search_text" maxlength="50" />
+				<input type="submit" name="search_submit" value="Search" class="green-button" />
+			</form>
+			<a href="/">
+				<img src="images/logo.png" alt="logo" id="logo" />
+			</a>
+			<nav>
+				<ul>
+					<li><a href="/">Home</a></li>
+					<li><a href="/">The Organisation</a></li>
+					<li><a href="/">Our operations</a></li>
+					<li><a href="/">News &amp; Events</a></li>
+					<li><a href="/">Sponsors</a></li>
+					<li><a href="/">Community</a></li>
+					<li><a href="/">Blog</a></li>
+					<li><a href="/">Contact us</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div id="slider">
+		<div class="flexslider">
+			<ul class="slides">
+				<li class="first-slide">
+					<p class="p1">BASS KICKING</p>
+					<p class="p2">GOT A WHOLE NEW LEVEL</p>
+					<p class="p3">Any similarity between you and a <br />human is purely coincidental!</p>
+					<p class="p4"><a href="/" class="green-button">Try it free</a> or <a href="/" class="green-button subscribe">subscribe</a></p>
+					<img src="images/monitor.png" alt="" />
+				</li>
+				<li class="first-slide">
+					<p class="p1">SECOND SLIDE</p>
+					<p class="p2">LOREM IPSUM DOLOR</p>
+					<p class="p3">I'd make it completely diffrent <br />if I woldn't be so lazy</p>
+					<p class="p4"><a href="/" class="green-button">Try it free</a> or <a href="/" class="green-button subscribe">subscribe</a></p>
+					<img src="images/monitor.png" alt="" />
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="wrapper">
+		<div class="info-block" id="big-block">
+			<div id="block1">
+				<h1>Do you know Who is John Rambo?</h1>
+				<p>At vero eos et accusamus et iusto odio dignissimos ducimus blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas.</p>
+				<ul>
+					<li id="li1">
+						<h2>Recognizing The Talent</h2>
+						<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna </span>
+					</li>
+					<li id="li2" class="right">
+						<h2>Finding Sponsors</h2>
+						<span>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco </span>
+					</li>
+					<li id="li3">
+						<h2>Creating Oppurtunities</h2>
+						<span>Eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</span>
+					</li>
+					<li id="li4" class="right">
+						<h2>Community Support</h2>
+						<span>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </span>
+					</li>
+				</ul>
+			</div>
+			<div id="block2">
+				<h1>WE knocked em’ll</h1>
+				<a href="/" id="link1"></a>
+				<a href="/" id="link2"></a>
+				<a href="/" id="link3"></a>
+				<a href="/" id="link4"></a>
+			</div>
+		</div>
+		<div class="info-block" id="blog-block">
+			<div class="heading">
+				<div class="heading-in">
+					<h1>From the blog</h1>
+					<a class="green-button">Visit our blog</a>
+				</div>
+			</div>
+			<ul>
+				<li>
+					<img src="images/blog_art_img.jpg" alt="" />
+					<span class="blog-pub_date">25th March 2010</span><br />
+					<a href="/">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</a><br />
+					<span class="blog-descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+				</li>
+				<li><a href="/">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</a></li>
+				<li><a href="/">Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</a></li>
+				<li><a href="/">Ruis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</a></li>
+			</ul>
+		</div>
+		<div class="info-block" id="twitter-block">
+			<div class="heading">
+				<div class="heading-in">
+					<h1>Twitter</h1>
+					<a class="green-button">Follow us</a>
+				</div>
+			</div>
+			<ul>
+				<li>
+					<span class="twitter-title">Live from Apple's iPhone OS 4 event! - Engadget  
+					<a href="/">http://goo.gl/eJVm</a></span><br />
+					<span class="twitter-pub_time">about 1 hour ago <a href="/">reply</a></span>
+				</li>
+				<li>
+					<span class="twitter-title">Reading '50 New Free High-Quality Icon Sets (with Easter Icons!)'  
+					<a href="/">http://goo.gl/eJVm</a></span><br />
+					<span class="twitter-pub_time">about 1 hour ago <a href="/">reply</a></span>
+				</li>
+				<li>
+					<span class="twitter-title">Photoshop tutorial – creating green grass  
+					<a href="/">http://goo.gl/eJVm</a></span><br />
+					<span class="twitter-pub_time">about 1 hour ago <a href="/">reply</a></span>
+				</li>
+				<li>
+					<span class="twitter-title">Blogger template: Coffee Break - 
+					<a href="/">http://goo.gl/eJVm</a></span><br />
+					<span class="twitter-pub_time">about 1 hour ago <a href="/">reply</a></span>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<footer>
+		<div class="wrapper">
+			<div class="info-block" id="footer-block">
+				<div class="heading">
+					<div class="heading-in">
+						<h1>Alliance &amp; partners</h1>
+					</div>
+				</div>
+				<img src="images/bottom_logos.jpg" alt="" />
+			</div>
+			<button class="login-status"><img src="images/login.png" alt="" />Client login</button>
+			<button class="login-status"><img src="images/login.png" alt="" />Member login</button>
+			<span id="some-more-links"><a href="/">Terms of Services</a> | <a href="/">Privacy Policy</a></span>
+			<nav>
+				<ul>
+					<li><a href="/">Home</a></li>
+					<li><a href="/">The Organisation</a></li>
+					<li><a href="/">Our operations</a></li>
+					<li><a href="/">News &amp; Events</a></li>
+					<li><a href="/">Sponsors</a></li>
+					<li><a href="/">Community</a></li>
+					<li><a href="/">Blog</a></li>
+					<li><a href="/">Contact us</a></li>
+				</ul>
+			</nav>
+			<span id="copyright">Copyright 2010. All Rights Reserved. Design by VIVROCKS.com. Coding by Artem Manukyan.</span>
+		</div>
+	</footer>
+
+</body>
+
+</html>

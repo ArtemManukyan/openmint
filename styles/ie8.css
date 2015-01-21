@@ -1,0 +1,35 @@
+.green-button,
+#search,
+#search input[type="text"],
+header nav,
+.first-slide .green-button,
+.heading,
+.info-block,
+.login-status {
+	behavior: url(js/PIE.htc);
+}
+
+header nav,
+.info-block,
+#footer-block,
+.login-status {
+	background: white;
+}
+
+#slider,
+footer {
+	background: #1d4671;
+}
+
+.green-button {
+	background: #669900;
+}
+
+#footer-block,
+.login-status {
+	position: relative;
+}
+
+#search input[type="text"] {
+	padding: 5px 10px;
+}
