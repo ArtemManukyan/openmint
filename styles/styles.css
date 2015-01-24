@@ -10,6 +10,7 @@ body {
 	background: #e8e8e8;
 	font: 12px Arial, sans-serif;
 	color: #333;
+	min-width: 962px;
 }
 
 .wrapper {
@@ -598,7 +599,7 @@ footer nav ul {
 }
 
 footer nav li {
-	padding: 0 17px 0 13px;
+	padding: 0 15px;
 	display: inline-block;
 	height: 12px;
 	border-left: 1px solid white;
@@ -609,7 +610,7 @@ footer nav li:first-child {
 }
 
 @-moz-document url-prefix() {
-	footer nav li {padding: 0 19px 0 15px;} /* for Firefox */
+	footer nav li {padding: 0 17px;} /* for Firefox */
 }
 
 footer nav li:first-child {
